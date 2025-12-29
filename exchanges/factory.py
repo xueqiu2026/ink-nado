@@ -10,15 +10,7 @@ class ExchangeFactory:
     """Factory class for creating exchange clients."""
 
     _registered_exchanges = {
-        'edgex': 'exchanges.edgex.EdgeXClient',
-        'backpack': 'exchanges.backpack.BackpackClient',
-        'paradex': 'exchanges.paradex.ParadexClient',
-        'aster': 'exchanges.aster.AsterClient',
-        'lighter': 'exchanges.lighter.LighterClient',
-        'grvt': 'exchanges.grvt.GrvtClient',
-        'extended': 'exchanges.extended.ExtendedClient',
-        'apex': 'exchanges.apex.ApexClient',
-        'nado': 'exchanges.nado.NadoClient',  # [Antigravity] Feature Add: Register Nado
+        'nado': 'exchanges.nado.NadoClient',
     }
 
     @classmethod
