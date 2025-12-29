@@ -8,6 +8,7 @@ import json
 import time
 import logging
 import random
+from dataclasses import dataclass
 from datetime import datetime
 from decimal import Decimal
 from typing import Dict, List, Optional, Tuple
@@ -16,8 +17,33 @@ import aiohttp
 # Architecture Standardization
 from exchanges.factory import ExchangeFactory
 from exchanges.base import BaseExchangeClient
-from trading_bot import TradingConfig
 from pnl_tracker import PnLTracker
+
+
+@dataclass
+class TradingConfig:
+    """Configuration class for trading parameters."""
+    ticker: str = "ETH"
+    contract_id: str = ""
+    quantity: Decimal = Decimal("0.05")
+    take_profit: Decimal = Decimal("0.0002")
+    tick_size: Decimal = Decimal("0.01")
+    direction: str = "buy"
+    max_orders: int = 10
+    wait_time: int = 60
+    exchange: str = "nado"
+    grid_step: Decimal = Decimal("-100")
+    stop_price: Decimal = Decimal("-1")
+    pause_price: Decimal = Decimal("-1")
+    boost_mode: bool = False
+    spread: float = 0.0005
+    max_exposure: float = 200
+
+    @property
+    def close_order_side(self) -> str:
+        """Get the close order side based on bot direction."""
+        return 'buy' if self.direction == "sell" else 'sell'
+
 
 # Logger inherited from root or configured by caller
 logger = logging.getLogger("HFTBot")

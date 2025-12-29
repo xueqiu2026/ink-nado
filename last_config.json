@@ -1,1 +1,1 @@
-{"ticker": "ETH-PERP", "contract_id": "4", "quantity": 0.05, "spread": 0.0005, "interval": 5, "boost_mode": false, "max_exposure": 200.0}
+{"ticker": "ETH-PERP", "contract_id": "4", "quantity": 0.01, "spread": 0.0005, "interval": 2, "boost_mode": true, "max_exposure": 200.0}

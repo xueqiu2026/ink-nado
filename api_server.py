@@ -23,8 +23,7 @@ from dotenv import load_dotenv
 
 # App Logic
 from exchanges.nado import NadoClient
-from trading_bot import TradingConfig
-from hft_bot import HFTBot
+from hft_bot import HFTBot, TradingConfig
 
 # Logging Setup (Queue for WS streaming)
 log_queue = asyncio.Queue()

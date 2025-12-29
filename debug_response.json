@@ -1,6 +1,10 @@
 {
-  "status": "failure",
-  "error_code": 2000,
-  "error": "Invalid order price: Order price, 2767980000000000000000, is not divisible by the price_increment_x18; price_increment_x18 for product 4: 100000000000000000.",
+  "status": "success",
+  "data": [
+    {
+      "digest": "0x299cf8acea635c4d30ea6e67bc710d89c3dd862daccab1834d04a7739fa7add6",
+      "error": null
+    }
+  ],
   "request_type": "execute_place_orders"
 }
