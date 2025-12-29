@@ -1,0 +1,8 @@
+{
+    "ticker": "ETH-PERP",
+    "quantity": 0.01,
+    "spread": 0.0005,
+    "interval": 5,
+    "boost_mode": false,
+    "max_exposure": 150.0
+}

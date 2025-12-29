@@ -1,4 +1,54 @@
+# 🚀 Ink-Nado 高频交易套件
+
+> **Nado Protocol on Ink Chain** - 专业版永续合约交易机器人
+
 ##### 关注我 **X (Twitter)**: [@yourQuantGuy](https://x.com/yourQuantGuy)
+
+---
+
+## 🔥 Nado/Ink 协议专用功能
+
+本项目为 **Nado Protocol (Ink Chain)** 提供专业的高频交易支持：
+
+### ✨ 核心特性
+- **Web UI 控制面板**: 实时监控账户净值、保证金健康度、交易日志
+- **Brute Mode (暴力模式)**: IOC 高频交易策略，快速积累交易量
+- **Maker Mode (做市模式)**: 智能价格漂移检测，减少无效订单刷新
+- **WebSocket 实时数据**: 经过身份验证的 StarkEx 签名连接，毫秒级延迟
+- **紧急风控**: 一键全仓平仓 (`/close_all`)、一键撤单 (`/cancel_all`)
+
+### 🛠️ 快速启动
+
+```bash
+# 1. 安装依赖
+pip install -r requirements.txt
+
+# 2. 配置 .env (参考 env_example.txt)
+# 必需: NADO_WALLET_PRIVATE_KEY, NADO_SUBACCOUNT_NAME
+
+# 3. 启动后端 API
+python -m uvicorn api_server:app --host 0.0.0.0 --port 8000
+
+# 4. 启动前端 (可选)
+cd web-ui && npm install && npm run dev
+```
+
+### 📊 API 端点
+| 端点 | 方法 | 描述 |
+|------|------|------|
+| `/start` | POST | 启动交易策略 |
+| `/stop` | POST | 停止交易策略 |
+| `/stats` | GET | 获取实时 PnL、交易量、持仓 |
+| `/close_all` | POST | 紧急全仓平仓 |
+| `/cancel_all` | POST | 撤销所有挂单 |
+
+### ⚙️ Nado 环境变量配置
+
+```bash
+# Nado/Ink 专用配置
+NADO_WALLET_PRIVATE_KEY=0x...   # 钱包私钥
+NADO_SUBACCOUNT_NAME=default    # 子账户名称 (默认: default)
+```
 
 ---
 

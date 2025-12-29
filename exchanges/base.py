@@ -127,3 +127,18 @@ class BaseExchangeClient(ABC):
     def get_exchange_name(self) -> str:
         """Get the exchange name."""
         pass
+
+    @abstractmethod
+    async def place_market_order(self, contract_id: str, quantity: Decimal, direction: str) -> OrderResult:
+        """Place a market order (or simulated via aggressive limit)."""
+        pass
+
+    @abstractmethod
+    async def place_batch_open_orders(self, orders: List[Tuple[Decimal, str, Decimal]]) -> OrderResult:
+        """Place multiple orders in a batch."""
+        pass
+        
+    @abstractmethod
+    async def cancel_orders(self, order_ids: List[str]) -> OrderResult:
+        """Cancel multiple orders in a batch."""
+        pass

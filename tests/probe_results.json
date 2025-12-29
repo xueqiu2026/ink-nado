@@ -1,0 +1,1156 @@
+{
+  "subaccount_info": {
+    "status": 200,
+    "body": {
+      "status": "success",
+      "data": {
+        "subaccount": "0x29adc18f38f8057034ba398491f40d4fbe605c4464656661756c740000000000",
+        "exists": true,
+        "healths": [
+          {
+            "assets": "56172061049270410221",
+            "liabilities": "0",
+            "health": "56172061049270410221"
+          },
+          {
+            "assets": "56172061049270410221",
+            "liabilities": "0",
+            "health": "56172061049270410221"
+          },
+          {
+            "assets": "56172061049270410221",
+            "liabilities": "0",
+            "health": "56172061049270410221"
+          }
+        ],
+        "health_contributions": [
+          [
+            "56172061049270410221",
+            "56172061049270410221",
+            "56172061049270410221"
+          ],
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0"
+          ],
+          [
+            "0",
+            "0",
+            "0"
+          ]
+        ],
+        "spot_count": 5,
+        "perp_count": 15,
+        "spot_balances": [
+          {
+            "product_id": 0,
+            "balance": {
+              "amount": "56172061049270410221"
+            }
+          },
+          {
+            "product_id": 1,
+            "balance": {
+              "amount": "0"
+            }
+          },
+          {
+            "product_id": 3,
+            "balance": {
+              "amount": "0"
+            }
+          },
+          {
+            "product_id": 5,
+            "balance": {
+              "amount": "0"
+            }
+          },
+          {
+            "product_id": 11,
+            "balance": {
+              "amount": "0"
+            }
+          }
+        ],
+        "perp_balances": [
+          {
+            "product_id": 2,
+            "balance": {
+              "amount": "0",
+              "v_quote_balance": "0",
+              "last_cumulative_funding_x18": "451852177673198273241"
+            }
+          },
+          {
+            "product_id": 4,
+            "balance": {
+              "amount": "0",
+              "v_quote_balance": "0",
+              "last_cumulative_funding_x18": "24808571168604189474"
+            }
+          },
+          {
+            "product_id": 8,
+            "balance": {
+              "amount": "0",
+              "v_quote_balance": "0",
+              "last_cumulative_funding_x18": "251103649486081046"
+            }
+          },
+          {
+            "product_id": 10,
+            "balance": {
+              "amount": "0",
+              "v_quote_balance": "0",
+              "last_cumulative_funding_x18": "3107714503749015"
+            }
+          },
+          {
+            "product_id": 14,
+            "balance": {
+              "amount": "0",
+              "v_quote_balance": "0",
+              "last_cumulative_funding_x18": "3710514026754584508"
+            }
+          },
+          {
+            "product_id": 16,
+            "balance": {
+              "amount": "0",
+              "v_quote_balance": "0",
+              "last_cumulative_funding_x18": "88851686416812345"
+            }
+          },
+          {
+            "product_id": 18,
+            "balance": {
+              "amount": "0",
+              "v_quote_balance": "0",
+              "last_cumulative_funding_x18": "268659017145619200"
+            }
+          },
+          {
+            "product_id": 20,
+            "balance": {
+              "amount": "0",
+              "v_quote_balance": "0",
+              "last_cumulative_funding_x18": "-41804211774812"
+            }
+          },
+          {
+            "product_id": 22,
+            "balance": {
+              "amount": "0",
+              "v_quote_balance": "0",
+              "last_cumulative_funding_x18": "1738244524105543"
+            }
+          },
+          {
+            "product_id": 24,
+            "balance": {
+              "amount": "0",
+              "v_quote_balance": "0",
+              "last_cumulative_funding_x18": "-128449101475884"
+            }
+          },
+          {
+            "product_id": 26,
+            "balance": {
+              "amount": "0",
+              "v_quote_balance": "0",
+              "last_cumulative_funding_x18": "-59137164979856592"
+            }
+          },
+          {
+            "product_id": 28,
+            "balance": {
+              "amount": "0",
+              "v_quote_balance": "0",
+              "last_cumulative_funding_x18": "-1134478429746101780"
+            }
+          },
+          {
+            "product_id": 30,
+            "balance": {
+              "amount": "0",
+              "v_quote_balance": "0",
+              "last_cumulative_funding_x18": "-188557139973"
+            }
+          },
+          {
+            "product_id": 32,
+            "balance": {
+              "amount": "0",
+              "v_quote_balance": "0",
+              "last_cumulative_funding_x18": "-160455146104043226"
+            }
+          },
+          {
+            "product_id": 34,
+            "balance": {
+              "amount": "0",
+              "v_quote_balance": "0",
+              "last_cumulative_funding_x18": "1919271607165301340"
+            }
+          }
+        ],
+        "spot_products": [
+          {
+            "product_id": 0,
+            "oracle_price_x18": "1000000000000000000",
+            "risk": {
+              "long_weight_initial_x18": "1000000000000000000",
+              "short_weight_initial_x18": "1000000000000000000",
+              "long_weight_maintenance_x18": "1000000000000000000",
+              "short_weight_maintenance_x18": "1000000000000000000",
+              "price_x18": "1000000000000000000"
+            },
+            "config": {
+              "token": "0x0200c29006150606b650577bbe7b6248f58470c1",
+              "interest_inflection_util_x18": "800000000000000000",
+              "interest_floor_x18": "10000000000000000",
+              "interest_small_cap_x18": "40000000000000000",
+              "interest_large_cap_x18": "1000000000000000000",
+              "withdraw_fee_x18": "1000000000000000000",
+              "min_deposit_rate_x18": "0"
+            },
+            "state": {
+              "cumulative_deposits_multiplier_x18": "1000077643324756022",
+              "cumulative_borrows_multiplier_x18": "1001195378397083738",
+              "total_deposits_normalized": "19090907259488882979417977",
+              "total_borrows_normalized": "1802689897241145913413869"
+            },
+            "book_info": {
+              "size_increment": "0",
+              "price_increment_x18": "0",
+              "min_size": "0",
+              "collected_fees": "0"
+            }
+          },
+          {
+            "product_id": 1,
+            "oracle_price_x18": "88936885967545070732536",
+            "risk": {
+              "long_weight_initial_x18": "950000000000000000",
+              "short_weight_initial_x18": "1050000000000000000",
+              "long_weight_maintenance_x18": "970000000000000000",
+              "short_weight_maintenance_x18": "1030000000000000000",
+              "price_x18": "88936885967545070732536"
+            },
+            "config": {
+              "token": "0x73e0c0d45e048d25fc26fa3159b0aa04bfa4db98",
+              "interest_inflection_util_x18": "800000000000000000",
+              "interest_floor_x18": "10000000000000000",
+              "interest_small_cap_x18": "40000000000000000",
+              "interest_large_cap_x18": "1000000000000000000",
+              "withdraw_fee_x18": "10000000000000",
+              "min_deposit_rate_x18": "0"
+            },
+            "state": {
+              "cumulative_deposits_multiplier_x18": "1000845637003485674",
+              "cumulative_borrows_multiplier_x18": "1002381400023062438",
+              "total_deposits_normalized": "21755619396044845987",
+              "total_borrows_normalized": "3393541503026366099"
+            },
+            "book_info": {
+              "size_increment": "50000000000000",
+              "price_increment_x18": "1000000000000000000",
+              "min_size": "100000000000000000000",
+              "collected_fees": "0"
+            }
+          },
+          {
+            "product_id": 3,
+            "oracle_price_x18": "3028386948556335914520",
+            "risk": {
+              "long_weight_initial_x18": "950000000000000000",
+              "short_weight_initial_x18": "1050000000000000000",
+              "long_weight_maintenance_x18": "970000000000000000",
+              "short_weight_maintenance_x18": "1030000000000000000",
+              "price_x18": "3028386948556335914520"
+            },
+            "config": {
+              "token": "0x4200000000000000000000000000000000000006",
+              "interest_inflection_util_x18": "800000000000000000",
+              "interest_floor_x18": "10000000000000000",
+              "interest_small_cap_x18": "40000000000000000",
+              "interest_large_cap_x18": "1000000000000000000",
+              "withdraw_fee_x18": "300000000000000",
+              "min_deposit_rate_x18": "0"
+            },
+            "state": {
+              "cumulative_deposits_multiplier_x18": "1000394582263353273",
+              "cumulative_borrows_multiplier_x18": "1001700730569304542",
+              "total_deposits_normalized": "931105682380570380807",
+              "total_borrows_normalized": "22540522286137204771"
+            },
+            "book_info": {
+              "size_increment": "1000000000000000",
+              "price_increment_x18": "100000000000000000",
+              "min_size": "100000000000000000000",
+              "collected_fees": "0"
+            }
+          },
+          {
+            "product_id": 5,
+            "oracle_price_x18": "1000151289593212877",
+            "risk": {
+              "long_weight_initial_x18": "950000000000000000",
+              "short_weight_initial_x18": "1050000000000000000",
+              "long_weight_maintenance_x18": "970000000000000000",
+              "short_weight_maintenance_x18": "1030000000000000000",
+              "price_x18": "1000151289593212877"
+            },
+            "config": {
+              "token": "0x2d270e6886d130d724215a266106e6832161eaed",
+              "interest_inflection_util_x18": "800000000000000000",
+              "interest_floor_x18": "10000000000000000",
+              "interest_small_cap_x18": "40000000000000000",
+              "interest_large_cap_x18": "1000000000000000000",
+              "withdraw_fee_x18": "1000000000000000000",
+              "min_deposit_rate_x18": "0"
+            },
+            "state": {
+              "cumulative_deposits_multiplier_x18": "1000114078332600336",
+              "cumulative_borrows_multiplier_x18": "1001031557975369069",
+              "total_deposits_normalized": "1619750141680929088711564",
+              "total_borrows_normalized": "964512128062280705465159"
+            },
+            "book_info": {
+              "size_increment": "10000000000000000000",
+              "price_increment_x18": "100000000000000",
+              "min_size": "100000000000000000000",
+              "collected_fees": "0"
+            }
+          },
+          {
+            "product_id": 11,
+            "oracle_price_x18": "978366864001396684",
+            "risk": {
+              "long_weight_initial_x18": "700000000000000000",
+              "short_weight_initial_x18": "1300000000000000000",
+              "long_weight_maintenance_x18": "850000000000000000",
+              "short_weight_maintenance_x18": "1150000000000000000",
+              "price_x18": "978366864001396684"
+            },
+            "config": {
+              "token": "0xf9e0af5e093c6ff7d75983414826462fc4abe430",
+              "interest_inflection_util_x18": "800000000000000000",
+              "interest_floor_x18": "0",
+              "interest_small_cap_x18": "0",
+              "interest_large_cap_x18": "0",
+              "withdraw_fee_x18": "0",
+              "min_deposit_rate_x18": "0"
+            },
+            "state": {
+              "cumulative_deposits_multiplier_x18": "1000000000000000000",
+              "cumulative_borrows_multiplier_x18": "1000000000000000000",
+              "total_deposits_normalized": "2045117237672382747624323",
+              "total_borrows_normalized": "2045117237672382747624323"
+            },
+            "book_info": {
+              "size_increment": "1000000000000000000",
+              "price_increment_x18": "1000000000000000000",
+              "min_size": "100000000000000000000",
+              "collected_fees": "0"
+            }
+          }
+        ],
+        "perp_products": [
+          {
+            "product_id": 2,
+            "oracle_price_x18": "88899646557730978940523",
+            "risk": {
+              "long_weight_initial_x18": "966700000000000000",
+              "short_weight_initial_x18": "1033300000000000000",
+              "long_weight_maintenance_x18": "983300000000000000",
+              "short_weight_maintenance_x18": "1016700000000000000",
+              "price_x18": "88899646557730978940523"
+            },
+            "state": {
+              "cumulative_funding_long_x18": "451852177673198273241",
+              "cumulative_funding_short_x18": "451852177673198273241",
+              "available_settle": "918233214448671327623563",
+              "open_interest": "362707900000000000000"
+            },
+            "book_info": {
+              "size_increment": "50000000000000",
+              "price_increment_x18": "1000000000000000000",
+              "min_size": "100000000000000000000",
+              "collected_fees": "0"
+            }
+          },
+          {
+            "product_id": 4,
+            "oracle_price_x18": "3027145760099645837085",
+            "risk": {
+              "long_weight_initial_x18": "966700000000000000",
+              "short_weight_initial_x18": "1033300000000000000",
+              "long_weight_maintenance_x18": "983300000000000000",
+              "short_weight_maintenance_x18": "1016700000000000000",
+              "price_x18": "3027145760099645837085"
+            },
+            "state": {
+              "cumulative_funding_long_x18": "24808571168604189474",
+              "cumulative_funding_short_x18": "24808571168604189474",
+              "available_settle": "267739263577305573223962",
+              "open_interest": "3961116000000000000000"
+            },
+            "book_info": {
+              "size_increment": "1000000000000000",
+              "price_increment_x18": "100000000000000000",
+              "min_size": "100000000000000000000",
+              "collected_fees": "0"
+            }
+          },
+          {
+            "product_id": 8,
+            "oracle_price_x18": "126145110850991456069",
+            "risk": {
+              "long_weight_initial_x18": "950000000000000000",
+              "short_weight_initial_x18": "1050000000000000000",
+              "long_weight_maintenance_x18": "970000000000000000",
+              "short_weight_maintenance_x18": "1030000000000000000",
+              "price_x18": "126145110850991456069"
+            },
+            "state": {
+              "cumulative_funding_long_x18": "251103649486081046",
+              "cumulative_funding_short_x18": "251103649486081046",
+              "available_settle": "41321256290484082076572",
+              "open_interest": "80112000000000000000000"
+            },
+            "book_info": {
+              "size_increment": "100000000000000000",
+              "price_increment_x18": "10000000000000000",
+              "min_size": "100000000000000000000",
+              "collected_fees": "0"
+            }
+          },
+          {
+            "product_id": 10,
+            "oracle_price_x18": "1918251685775456710",
+            "risk": {
+              "long_weight_initial_x18": "950000000000000000",
+              "short_weight_initial_x18": "1050000000000000000",
+              "long_weight_maintenance_x18": "970000000000000000",
+              "short_weight_maintenance_x18": "1030000000000000000",
+              "price_x18": "1918251685775456710"
+            },
+            "state": {
+              "cumulative_funding_long_x18": "3107714503749015",
+              "cumulative_funding_short_x18": "3107714503749015",
+              "available_settle": "7331545208939075534494",
+              "open_interest": "171230000000000000000000"
+            },
+            "book_info": {
+              "size_increment": "5000000000000000000",
+              "price_increment_x18": "100000000000000",
+              "min_size": "100000000000000000000",
+              "collected_fees": "0"
+            }
+          },
+          {
+            "product_id": 14,
+            "oracle_price_x18": "859826244782599995998",
+            "risk": {
+              "long_weight_initial_x18": "950000000000000000",
+              "short_weight_initial_x18": "1050000000000000000",
+              "long_weight_maintenance_x18": "970000000000000000",
+              "short_weight_maintenance_x18": "1030000000000000000",
+              "price_x18": "859826244782599995998"
+            },
+            "state": {
+              "cumulative_funding_long_x18": "3710514026754584508",
+              "cumulative_funding_short_x18": "3710514026754584508",
+              "available_settle": "8684826081885261503537",
+              "open_interest": "772870000000000000000"
+            },
+            "book_info": {
+              "size_increment": "5000000000000000",
+              "price_increment_x18": "10000000000000000",
+              "min_size": "100000000000000000000",
+              "collected_fees": "0"
+            }
+          },
+          {
+            "product_id": 16,
+            "oracle_price_x18": "24946384503026361862",
+            "risk": {
+              "long_weight_initial_x18": "900000000000000000",
+              "short_weight_initial_x18": "1100000000000000000",
+              "long_weight_maintenance_x18": "950000000000000000",
+              "short_weight_maintenance_x18": "1050000000000000000",
+              "price_x18": "24946384503026361862"
+            },
+            "state": {
+              "cumulative_funding_long_x18": "88851686416812345",
+              "cumulative_funding_short_x18": "88851686416812345",
+              "available_settle": "12355179592704325861308",
+              "open_interest": "121814600000000000000000"
+            },
+            "book_info": {
+              "size_increment": "100000000000000000",
+              "price_increment_x18": "1000000000000000",
+              "min_size": "100000000000000000000",
+              "collected_fees": "0"
+            }
+          },
+          {
+            "product_id": 18,
+            "oracle_price_x18": "443692832744735130808",
+            "risk": {
+              "long_weight_initial_x18": "900000000000000000",
+              "short_weight_initial_x18": "1100000000000000000",
+              "long_weight_maintenance_x18": "950000000000000000",
+              "short_weight_maintenance_x18": "1050000000000000000",
+              "price_x18": "443692832744735130808"
+            },
+            "state": {
+              "cumulative_funding_long_x18": "268659017145619200",
+              "cumulative_funding_short_x18": "268659017145619200",
+              "available_settle": "15623586558239145539970",
+              "open_interest": "3267680000000000000000"
+            },
+            "book_info": {
+              "size_increment": "10000000000000000",
+              "price_increment_x18": "10000000000000000",
+              "min_size": "100000000000000000000",
+              "collected_fees": "0"
+            }
+          },
+          {
+            "product_id": 20,
+            "oracle_price_x18": "19794917712970836",
+            "risk": {
+              "long_weight_initial_x18": "900000000000000000",
+              "short_weight_initial_x18": "1100000000000000000",
+              "long_weight_maintenance_x18": "950000000000000000",
+              "short_weight_maintenance_x18": "1050000000000000000",
+              "price_x18": "19794917712970836"
+            },
+            "state": {
+              "cumulative_funding_long_x18": "-41804211774812",
+              "cumulative_funding_short_x18": "-41804211774812",
+              "available_settle": "11695107740364142439755",
+              "open_interest": "90793800000000000000000000"
+            },
+            "book_info": {
+              "size_increment": "100000000000000000000",
+              "price_increment_x18": "1000000000000",
+              "min_size": "100000000000000000000",
+              "collected_fees": "0"
+            }
+          },
+          {
+            "product_id": 22,
+            "oracle_price_x18": "295550253116433559",
+            "risk": {
+              "long_weight_initial_x18": "900000000000000000",
+              "short_weight_initial_x18": "1100000000000000000",
+              "long_weight_maintenance_x18": "950000000000000000",
+              "short_weight_maintenance_x18": "1050000000000000000",
+              "price_x18": "295550253116433559"
+            },
+            "state": {
+              "cumulative_funding_long_x18": "1738244524105543",
+              "cumulative_funding_short_x18": "1738244524105543",
+              "available_settle": "5724383322587398287227",
+              "open_interest": "3833520000000000000000000"
+            },
+            "book_info": {
+              "size_increment": "20000000000000000000",
+              "price_increment_x18": "10000000000000",
+              "min_size": "100000000000000000000",
+              "collected_fees": "0"
+            }
+          },
+          {
+            "product_id": 24,
+            "oracle_price_x18": "1451151249574804410",
+            "risk": {
+              "long_weight_initial_x18": "900000000000000000",
+              "short_weight_initial_x18": "1100000000000000000",
+              "long_weight_maintenance_x18": "950000000000000000",
+              "short_weight_maintenance_x18": "1050000000000000000",
+              "price_x18": "1451151249574804410"
+            },
+            "state": {
+              "cumulative_funding_long_x18": "-128449101475884",
+              "cumulative_funding_short_x18": "-128449101475884",
+              "available_settle": "270954382493962967722",
+              "open_interest": "61532000000000000000000"
+            },
+            "book_info": {
+              "size_increment": "1000000000000000000",
+              "price_increment_x18": "100000000000000",
+              "min_size": "100000000000000000000",
+              "collected_fees": "0"
+            }
+          },
+          {
+            "product_id": 26,
+            "oracle_price_x18": "160845431008263801348",
+            "risk": {
+              "long_weight_initial_x18": "900000000000000000",
+              "short_weight_initial_x18": "1100000000000000000",
+              "long_weight_maintenance_x18": "950000000000000000",
+              "short_weight_maintenance_x18": "1050000000000000000",
+              "price_x18": "160845431008263801348"
+            },
+            "state": {
+              "cumulative_funding_long_x18": "-59137164979856592",
+              "cumulative_funding_short_x18": "-59137164979856592",
+              "available_settle": "46545270287326663194",
+              "open_interest": "1233920000000000000000"
+            },
+            "book_info": {
+              "size_increment": "10000000000000000",
+              "price_increment_x18": "10000000000000000",
+              "min_size": "100000000000000000000",
+              "collected_fees": "0"
+            }
+          },
+          {
+            "product_id": 28,
+            "oracle_price_x18": "4410352976189046961602",
+            "risk": {
+              "long_weight_initial_x18": "900000000000000000",
+              "short_weight_initial_x18": "1100000000000000000",
+              "long_weight_maintenance_x18": "950000000000000000",
+              "short_weight_maintenance_x18": "1050000000000000000",
+              "price_x18": "4410352976189046961602"
+            },
+            "state": {
+              "cumulative_funding_long_x18": "-1134478429746101780",
+              "cumulative_funding_short_x18": "-1134478429746101780",
+              "available_settle": "394602221293829192245",
+              "open_interest": "82206000000000000000"
+            },
+            "book_info": {
+              "size_increment": "1000000000000000",
+              "price_increment_x18": "100000000000000000",
+              "min_size": "100000000000000000000",
+              "collected_fees": "0"
+            }
+          },
+          {
+            "product_id": 30,
+            "oracle_price_x18": "2015496973638137",
+            "risk": {
+              "long_weight_initial_x18": "900000000000000000",
+              "short_weight_initial_x18": "1100000000000000000",
+              "long_weight_maintenance_x18": "950000000000000000",
+              "short_weight_maintenance_x18": "1050000000000000000",
+              "price_x18": "2015496973638137"
+            },
+            "state": {
+              "cumulative_funding_long_x18": "-188557139973",
+              "cumulative_funding_short_x18": "-188557139973",
+              "available_settle": "371539958745507036108",
+              "open_interest": "92904200000000000000000000"
+            },
+            "book_info": {
+              "size_increment": "100000000000000000000",
+              "price_increment_x18": "1000000000000",
+              "min_size": "100000000000000000000",
+              "collected_fees": "0"
+            }
+          },
+          {
+            "product_id": 32,
+            "oracle_price_x18": "225447942614176379370",
+            "risk": {
+              "long_weight_initial_x18": "900000000000000000",
+              "short_weight_initial_x18": "1100000000000000000",
+              "long_weight_maintenance_x18": "950000000000000000",
+              "short_weight_maintenance_x18": "1050000000000000000",
+              "price_x18": "225447942614176379370"
+            },
+            "state": {
+              "cumulative_funding_long_x18": "-160455146104043226",
+              "cumulative_funding_short_x18": "-160455146104043226",
+              "available_settle": "440826366319300461647",
+              "open_interest": "427280000000000000000"
+            },
+            "book_info": {
+              "size_increment": "10000000000000000",
+              "price_increment_x18": "10000000000000000",
+              "min_size": "100000000000000000000",
+              "collected_fees": "0"
+            }
+          },
+          {
+            "product_id": 34,
+            "oracle_price_x18": "479286782630009804510",
+            "risk": {
+              "long_weight_initial_x18": "900000000000000000",
+              "short_weight_initial_x18": "1100000000000000000",
+              "long_weight_maintenance_x18": "950000000000000000",
+              "short_weight_maintenance_x18": "1050000000000000000",
+              "price_x18": "479286782630009804510"
+            },
+            "state": {
+              "cumulative_funding_long_x18": "1919271607165301340",
+              "cumulative_funding_short_x18": "1919271607165301340",
+              "available_settle": "118637751556148084391",
+              "open_interest": "1906660000000000000000"
+            },
+            "book_info": {
+              "size_increment": "10000000000000000",
+              "price_increment_x18": "10000000000000000",
+              "min_size": "100000000000000000000",
+              "collected_fees": "0"
+            }
+          }
+        ]
+      },
+      "request_type": "query_subaccount_info"
+    }
+  },
+  "open_orders": {
+    "status": 200,
+    "body": {
+      "status": "success",
+      "data": {
+        "sender": "0x29adc18f38f8057034ba398491f40d4fbe605c4464656661756c740000000000",
+        "product_id": 4,
+        "orders": [
+          {
+            "product_id": 4,
+            "sender": "0x29adc18f38f8057034ba398491f40d4fbe605c4464656661756c740000000000",
+            "price_x18": "3028400000000000000000",
+            "amount": "50000000000000000",
+            "expiration": "1766389494498",
+            "order_type": "default",
+            "nonce": "1852189866194907193",
+            "appendix": "1",
+            "unfilled_amount": "50000000000000000",
+            "digest": "0x83260858fbee19573813ebfe0558f139e966ff50601046e5701f8acc98db3a90",
+            "placed_at": 1766385894
+          },
+          {
+            "product_id": 4,
+            "sender": "0x29adc18f38f8057034ba398491f40d4fbe605c4464656661756c740000000000",
+            "price_x18": "3031500000000000000000",
+            "amount": "-50000000000000000",
+            "expiration": "1766389494498",
+            "order_type": "default",
+            "nonce": "1852189867243483193",
+            "appendix": "1",
+            "unfilled_amount": "-50000000000000000",
+            "digest": "0x35d45e39f40a6ca5f37ab82d2e7fb120155864e8d9ccfa82ba4d2a904710eb80",
+            "placed_at": 1766385894
+          }
+        ]
+      },
+      "request_type": "query_subaccount_orders"
+    }
+  },
+  "symbols": {
+    "status": 200,
+    "body": {
+      "status": "success",
+      "data": {
+        "symbols": {
+          "TAO-PERP": {
+            "type": "perp",
+            "product_id": 32,
+            "symbol": "TAO-PERP",
+            "price_increment_x18": "10000000000000000",
+            "size_increment": "10000000000000000",
+            "min_size": "100000000000000000000",
+            "maker_fee_rate_x18": "0",
+            "taker_fee_rate_x18": "0",
+            "long_weight_initial_x18": "900000000000000000",
+            "long_weight_maintenance_x18": "950000000000000000",
+            "max_open_interest_x18": "5000000000000000000000000"
+          },
+          "ZEC-PERP": {
+            "type": "perp",
+            "product_id": 18,
+            "symbol": "ZEC-PERP",
+            "price_increment_x18": "10000000000000000",
+            "size_increment": "10000000000000000",
+            "min_size": "100000000000000000000",
+            "maker_fee_rate_x18": "-125000000000000",
+            "taker_fee_rate_x18": "0",
+            "long_weight_initial_x18": "900000000000000000",
+            "long_weight_maintenance_x18": "950000000000000000",
+            "max_open_interest_x18": "5000000000000000000000000"
+          },
+          "USDC": {
+            "type": "spot",
+            "product_id": 5,
+            "symbol": "USDC",
+            "price_increment_x18": "100000000000000",
+            "size_increment": "10000000000000000000",
+            "min_size": "100000000000000000000",
+            "maker_fee_rate_x18": "-125000000000000",
+            "taker_fee_rate_x18": "0",
+            "long_weight_initial_x18": "950000000000000000",
+            "long_weight_maintenance_x18": "970000000000000000",
+            "max_open_interest_x18": null
+          },
+          "MON-PERP": {
+            "type": "perp",
+            "product_id": 20,
+            "symbol": "MON-PERP",
+            "price_increment_x18": "1000000000000",
+            "size_increment": "100000000000000000000",
+            "min_size": "100000000000000000000",
+            "maker_fee_rate_x18": "-125000000000000",
+            "taker_fee_rate_x18": "0",
+            "long_weight_initial_x18": "900000000000000000",
+            "long_weight_maintenance_x18": "950000000000000000",
+            "max_open_interest_x18": "5000000000000000000000000"
+          },
+          "BNB-PERP": {
+            "type": "perp",
+            "product_id": 14,
+            "symbol": "BNB-PERP",
+            "price_increment_x18": "10000000000000000",
+            "size_increment": "5000000000000000",
+            "min_size": "100000000000000000000",
+            "maker_fee_rate_x18": "-125000000000000",
+            "taker_fee_rate_x18": "0",
+            "long_weight_initial_x18": "950000000000000000",
+            "long_weight_maintenance_x18": "970000000000000000",
+            "max_open_interest_x18": "10000000000000000000000000"
+          },
+          "KBTC": {
+            "type": "spot",
+            "product_id": 1,
+            "symbol": "KBTC",
+            "price_increment_x18": "1000000000000000000",
+            "size_increment": "50000000000000",
+            "min_size": "100000000000000000000",
+            "maker_fee_rate_x18": "-125000000000000",
+            "taker_fee_rate_x18": "0",
+            "long_weight_initial_x18": "950000000000000000",
+            "long_weight_maintenance_x18": "970000000000000000",
+            "max_open_interest_x18": null
+          },
+          "XAUT-PERP": {
+            "type": "perp",
+            "product_id": 28,
+            "symbol": "XAUT-PERP",
+            "price_increment_x18": "100000000000000000",
+            "size_increment": "1000000000000000",
+            "min_size": "100000000000000000000",
+            "maker_fee_rate_x18": "0",
+            "taker_fee_rate_x18": "0",
+            "long_weight_initial_x18": "900000000000000000",
+            "long_weight_maintenance_x18": "950000000000000000",
+            "max_open_interest_x18": "5000000000000000000000000"
+          },
+          "HYPE-PERP": {
+            "type": "perp",
+            "product_id": 16,
+            "symbol": "HYPE-PERP",
+            "price_increment_x18": "1000000000000000",
+            "size_increment": "100000000000000000",
+            "min_size": "100000000000000000000",
+            "maker_fee_rate_x18": "-125000000000000",
+            "taker_fee_rate_x18": "0",
+            "long_weight_initial_x18": "900000000000000000",
+            "long_weight_maintenance_x18": "950000000000000000",
+            "max_open_interest_x18": "5000000000000000000000000"
+          },
+          "PUMP-PERP": {
+            "type": "perp",
+            "product_id": 30,
+            "symbol": "PUMP-PERP",
+            "price_increment_x18": "1000000000000",
+            "size_increment": "100000000000000000000",
+            "min_size": "100000000000000000000",
+            "maker_fee_rate_x18": "0",
+            "taker_fee_rate_x18": "0",
+            "long_weight_initial_x18": "900000000000000000",
+            "long_weight_maintenance_x18": "950000000000000000",
+            "max_open_interest_x18": "5000000000000000000000000"
+          },
+          "XRP-PERP": {
+            "type": "perp",
+            "product_id": 10,
+            "symbol": "XRP-PERP",
+            "price_increment_x18": "100000000000000",
+            "size_increment": "5000000000000000000",
+            "min_size": "100000000000000000000",
+            "maker_fee_rate_x18": "-125000000000000",
+            "taker_fee_rate_x18": "0",
+            "long_weight_initial_x18": "950000000000000000",
+            "long_weight_maintenance_x18": "970000000000000000",
+            "max_open_interest_x18": "10000000000000000000000000"
+          },
+          "ETH-PERP": {
+            "type": "perp",
+            "product_id": 4,
+            "symbol": "ETH-PERP",
+            "price_increment_x18": "100000000000000000",
+            "size_increment": "1000000000000000",
+            "min_size": "100000000000000000000",
+            "maker_fee_rate_x18": "-125000000000000",
+            "taker_fee_rate_x18": "0",
+            "long_weight_initial_x18": "966700000000000000",
+            "long_weight_maintenance_x18": "983300000000000000",
+            "max_open_interest_x18": "100000000000000000000000000"
+          },
+          "WETH": {
+            "type": "spot",
+            "product_id": 3,
+            "symbol": "WETH",
+            "price_increment_x18": "100000000000000000",
+            "size_increment": "1000000000000000",
+            "min_size": "100000000000000000000",
+            "maker_fee_rate_x18": "-125000000000000",
+            "taker_fee_rate_x18": "0",
+            "long_weight_initial_x18": "950000000000000000",
+            "long_weight_maintenance_x18": "970000000000000000",
+            "max_open_interest_x18": null
+          },
+          "AAVE-PERP": {
+            "type": "perp",
+            "product_id": 26,
+            "symbol": "AAVE-PERP",
+            "price_increment_x18": "10000000000000000",
+            "size_increment": "10000000000000000",
+            "min_size": "100000000000000000000",
+            "maker_fee_rate_x18": "0",
+            "taker_fee_rate_x18": "0",
+            "long_weight_initial_x18": "900000000000000000",
+            "long_weight_maintenance_x18": "950000000000000000",
+            "max_open_interest_x18": "5000000000000000000000000"
+          },
+          "FARTCOIN-PERP": {
+            "type": "perp",
+            "product_id": 22,
+            "symbol": "FARTCOIN-PERP",
+            "price_increment_x18": "10000000000000",
+            "size_increment": "20000000000000000000",
+            "min_size": "100000000000000000000",
+            "maker_fee_rate_x18": "-125000000000000",
+            "taker_fee_rate_x18": "0",
+            "long_weight_initial_x18": "900000000000000000",
+            "long_weight_maintenance_x18": "950000000000000000",
+            "max_open_interest_x18": "5000000000000000000000000"
+          },
+          "SUI-PERP": {
+            "type": "perp",
+            "product_id": 24,
+            "symbol": "SUI-PERP",
+            "price_increment_x18": "100000000000000",
+            "size_increment": "1000000000000000000",
+            "min_size": "100000000000000000000",
+            "maker_fee_rate_x18": "0",
+            "taker_fee_rate_x18": "0",
+            "long_weight_initial_x18": "900000000000000000",
+            "long_weight_maintenance_x18": "950000000000000000",
+            "max_open_interest_x18": "5000000000000000000000000"
+          },
+          "XMR-PERP": {
+            "type": "perp",
+            "product_id": 34,
+            "symbol": "XMR-PERP",
+            "price_increment_x18": "10000000000000000",
+            "size_increment": "10000000000000000",
+            "min_size": "100000000000000000000",
+            "maker_fee_rate_x18": "0",
+            "taker_fee_rate_x18": "0",
+            "long_weight_initial_x18": "900000000000000000",
+            "long_weight_maintenance_x18": "950000000000000000",
+            "max_open_interest_x18": "5000000000000000000000000"
+          },
+          "SOL-PERP": {
+            "type": "perp",
+            "product_id": 8,
+            "symbol": "SOL-PERP",
+            "price_increment_x18": "10000000000000000",
+            "size_increment": "100000000000000000",
+            "min_size": "100000000000000000000",
+            "maker_fee_rate_x18": "-125000000000000",
+            "taker_fee_rate_x18": "0",
+            "long_weight_initial_x18": "950000000000000000",
+            "long_weight_maintenance_x18": "970000000000000000",
+            "max_open_interest_x18": "10000000000000000000000000"
+          },
+          "BTC-PERP": {
+            "type": "perp",
+            "product_id": 2,
+            "symbol": "BTC-PERP",
+            "price_increment_x18": "1000000000000000000",
+            "size_increment": "50000000000000",
+            "min_size": "100000000000000000000",
+            "maker_fee_rate_x18": "-125000000000000",
+            "taker_fee_rate_x18": "0",
+            "long_weight_initial_x18": "966700000000000000",
+            "long_weight_maintenance_x18": "983300000000000000",
+            "max_open_interest_x18": "100000000000000000000000000"
+          }
+        }
+      },
+      "request_type": "query_symbols"
+    }
+  }
+}
